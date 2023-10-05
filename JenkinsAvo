@@ -17,20 +17,20 @@ pipeline {
                 echo 'Deploying....'
             }
         }
-        stage('Deploy to production 1') {
+        stage('Deploy to AVO') {
             steps {
-                echo 'Deploying to prod 1...'
+                echo 'Deploying to AVO...'
       
             }
         }
-        stage ('Depoly to production 2'){
+        stage ('Depoly to AVO 2'){
             steps{
-              echo 'Depolying to prod 2 ...'
+              echo 'Depolying to AVO 2 ...'
           }
         }
-        stage ('Deploy to production 3'){
+        stage ('Deploy to AVO 3'){
             steps{
-                 echo 'Depolying to prod 3 ..'
+                 echo 'Depolying to AVO 3 ..'
                }
             }
             
